@@ -1,0 +1,251 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo h2 {
+    color: #f3eded;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 20px;
+}
+
+.navbar .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.navbar .nav-links li a:hover {
+    background-color: rgb(212,0,0)
+
+}
+
+/* Welcome Section */
+.welcome {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    color: #080e14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 1.5rem;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.service-boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.service-box {
+    background-color: #f9f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+.service-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+.webbox{
+    text-decoration: none;
+    color: #080e14;
+}
+.aboxes{
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+}
+.aboxes:hover{
+    opacity: 75%;
+    color: rgb(212, 0, 0);
+    
+}
+.webnav {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.webnav .weblinks {
+    list-style: none;
+    display: flex;
+}
+
+.webnav .weblinks li {
+    margin-left: 20px;
+}
+.webnav .navhead{
+    text-align: center;
+    color: #f9f4f4;
+}
+
+.webnav .weblinks li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.webnav .weblinks li a:hover {
+    background-color: rgb(212,0,0)
+
+}
+
+.navhtml h2{
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 60vh;
+    padding-right:60vh ;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+.roadmap{
+    height: 20vh;
+    width: 20vh;
+    align-items: center;
+    padding-left: 30vh;
+    padding-top: 10vh;
+}
+.navhtml .scroll{
+    background-color: #080e14;
+    color: aqua;
+}
+.navhtml .roadhead{
+    padding-left: 50vh;
+    padding-top: 3vh;
+    font-size: 30px;
+}
+
+.webnav {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.machinenav .machinelinks {
+    list-style: none;
+    display: flex;
+}
+
+.machinenav .machinelinks li {
+    margin-left: 20px;
+}
+.machinenav .navhead{
+    text-align: center;
+    color: #f9f4f4;
+}

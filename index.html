@@ -1,0 +1,82 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Login Page</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    margin: 0;
+                    background-color: #f0f2f5;
+                }
+                .login-container {
+                    background-color: #fff;
+                    padding: 20px;
+                    border-radius: 8px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    width: 300px;
+                    text-align: center;
+                }
+                input[type="text"], input[type="password"] {
+                    width: 100%;
+                    padding: 10px;
+                    margin: 10px 0;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                }
+                button {
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 10px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    width: 100%;
+                }
+                button:hover {
+                    background-color: #45a049;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="login-container">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <input type="text" id="username" placeholder="Username" required><br>
+                    <input type="password" id="password" placeholder="Password" required><br>
+                    <button type="button" onclick="login()">Login</button>
+                </form>
+                <p id="message" style="color: red;"></p>
+            </div>
+            <script>
+                function login() {
+                    const username = document.getElementById('username').value;
+                    const password = document.getElementById('password').value;
+            
+                    // Example: Hardcoded username and password for testing
+                    const validUsername = 'vinaykanuganti2@gmail.com';  // Replace with your username
+                    const validPassword = '123456789';  // Replace with your password
+            
+                    if (username === validUsername && password === validPassword) {
+                        // Simulate login success by redirecting
+                        window.location.href = 'redirect1.html';
+                    } else {
+                        // Show error message if login fails
+                        document.getElementById('message').style.color = 'red';
+                        document.getElementById('message').textContent = 'Invalid username or password';
+                    }
+                }
+            </script>
+            
+        </body>
+        </html>
+
+
+       
